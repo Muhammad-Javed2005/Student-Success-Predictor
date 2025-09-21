@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <p><b>Student Name:</b> {{ name }}</p>
+        <p><b>Student ID:</b> {{ student_id }}</p>
+        <p><b>Predicted Grade:</b> {{ grade }}</p>
+    </div>
+</body>
+</html>
